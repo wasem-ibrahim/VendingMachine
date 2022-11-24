@@ -13,10 +13,10 @@ An almost ideal solution to the Snacks Vending Machine assignment provided by Fr
 `cd src/`
 `ts-node Main.ts`
 
-*In case you are having any problems with the above commands, you might want to install "ts-node" globally on your machine using the following command:
+* In case you are having any problems with the above commands, you might want to install "ts-node" globally on your machine using the following command:
 `sudo npm i typescript ts-node -g`
 
-*If you feel like compiling the TS files to JS files and taking a loot at them, then you can do that by running:
+* If you feel like compiling the TS files to JS files and taking a loot at them, then you can do that by running:
 `tsc`
 in the main directory which will create a new file called "JSFiles", in which you can navigate to using 
 `cd JSFiles/`
