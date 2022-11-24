@@ -49,12 +49,9 @@ export default class VendingMachine implements IVending {
     this._chosenItem = value;
   }
 
-  //in this function we populate the vending machine with items and put them in their cells, and we also put change inside of the vending machine.
   start(): void {
     let snacks: product[] = this._snacksInventory.populate();
 
-    //An array that has the products, each one fills the stock for each cell with max size of "10"
-    // let spreadedSnacks: Product[] = [];
     snacks.forEach((pro: product) => {
       while (pro.stock > SIZE.CELL_SIZE) {
         pro.stock -= SIZE.CELL_SIZE;
@@ -63,7 +60,6 @@ export default class VendingMachine implements IVending {
       this.spreadedSnacks.push(pro);
     });
 
-    //Take only 25 cells cuz this is the limit, then map each cell number to a product with its price and stock
     let row = "A";
     this.spreadedSnacks.slice(0, SIZE.COL * SIZE.ROW).forEach((pro: product, i: number) => {
       this._cellsMap.set(`${row}${i % 5}`, pro);
@@ -71,7 +67,7 @@ export default class VendingMachine implements IVending {
         row = String.fromCharCode(row.charCodeAt(0) + 1);
       }
     });
-    //fill out the inventory with change for the customers:
+
     let change = this._changeInventory.populate();
     change.forEach((element: { name: string; remaining: number }) => {
       this._changeMoney.set(element.name, element.remaining);
@@ -79,7 +75,6 @@ export default class VendingMachine implements IVending {
   }
 
   selectProduct(key: string): void {
-    //check if the key is right, then if there is stock for the item in that cell
     this._key = key;
     if (this._cellsMap.get(key)) {
       if (this._cellsMap.get(key)!.stock > 0) {
@@ -93,7 +88,6 @@ export default class VendingMachine implements IVending {
   }
 
   putMoney(money: string): void {
-    //increase the change inside of the machine
     let currencyChange = this._changeMoney.get(money);
     currencyChange!++;
     this._changeMoney.set(money, currencyChange!);
@@ -107,7 +101,6 @@ export default class VendingMachine implements IVending {
     }
     this._total = this._calculator.calculateTotal(money, this.Money, this._total);
     console.log(`your total untill now is : ${this._total / 100}$`);
-    // this.checkIfEnoughMoney();
   }
 
   putCard(number: string): void {

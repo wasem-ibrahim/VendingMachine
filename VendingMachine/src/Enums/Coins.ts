@@ -1,7 +1,6 @@
 import IMoney, { money } from "../Interfaces/IMoney";
 
 export default class Coins implements IMoney {
-  // static readonly TEN_CENTS = new Coins("TEN_CENTS", 10);
   static readonly TEN_CENTS: number = 10;
   static readonly TWENTY_CENTS: number = 20;
   static readonly FIFTY_CENTS: number = 50;

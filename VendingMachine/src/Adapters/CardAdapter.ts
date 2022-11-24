@@ -32,8 +32,6 @@ export default class CardAdapter {
     let diners = new RegExp("^3[0689][0-9]{12}[0-9]*$");
     let jcb = new RegExp("^35[0-9]{14}[0-9]*$");
 
-    //we check the type of card, and according to that we call the API for that company.
-    //However, in our case for simplicity I will opt for only API
     if (visa.test(creditCard)) {
       //cal the bank api for "VISA"
       let result = this._BankAPI.checkAndDecrementAmount(creditCard, price);

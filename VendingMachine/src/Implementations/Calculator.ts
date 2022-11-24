@@ -21,16 +21,12 @@ export default class Calculator {
       const c = new Coins();
       const n = new Notes();
 
-      //fill the tally with pairs of values and count for each that are zero in the beigning.
       n.values.forEach((element: any) => {
         tally = { ...tally, [element.value]: 0 };
       });
       c.values.forEach((element: any) => {
         tally = { ...tally, [element.value]: 0 };
       });
-
-      //loop over the values from higher to lowest and give the change if it exists
-      //if the required change does not exist, give change of the lower values
 
       [...n.values, ...c.values].forEach((elemenet: { name: string; value: number }) => {
         let numOfChange = Math.floor(changeDue / elemenet.value);
