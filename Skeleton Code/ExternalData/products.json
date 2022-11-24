@@ -1,0 +1,30 @@
+{
+    "items": [
+    { "name": "DairyMilk", "stock": 21, "price": 2,"company":"Coca-Cola" },
+    { "name": "Twix", "stock": 12, "price": 3,"company":"Twix.Co" },
+    { "name": "Lay's", "stock": 15, "price": 5, "company": "Aqua"},
+    { "name": "Dorittos", "stock":9 , "price": 1, "company": "Dorittos" },
+    { "name": "Snickers", "stock": 13, "price": 2,"company": "Snickers.Co"},
+
+    { "name": "Cheetos", "stock": 23, "price": 2,"company":"Coca-Cola" },
+    { "name": "Reeses", "stock": 14, "price": 3,"company":"Twix.Co" },
+    { "name": "Mars", "stock": 16, "price": 5, "company": "Aqua"},
+    { "name": "Takis", "stock": 11, "price": 1, "company": "Dorittos" },
+    { "name": "KatKat", "stock": 22, "price": 2,"company": "Snickers.Co"},
+
+    { "name": "M&Ms", "stock": 22, "price": 2,"company":"Coca-Cola" },
+    { "name": "Mr.Chips", "stock": 15, "price": 3,"company":"Twix.Co" },
+    { "name": "Cookies", "stock": 23, "price": 5, "company": "Aqua"},
+    { "name": "Cheesit", "stock": 21, "price": 5, "company": "Aqua"},
+    { "name": "Twirl", "stock": 17, "price": 5, "company": "Aqua"}
+    ],
+
+    "change": [
+        {"name": "TEN_CENTS", "remaining": 23},
+        {"name": "TWENTY_CENTS", "remaining": 20},
+        {"name": "FIFTY_CENTS", "remaining": 21},
+        {"name": "ONE_DOLLAR", "remaining": 30},
+        {"name": "TWENTY_DOLLARS", "remaining": 12},
+        {"name": "FIFTY_DOLLARS", "remaining": 11}
+    ]
+}

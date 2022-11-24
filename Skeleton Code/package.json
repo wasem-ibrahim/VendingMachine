@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "ts-mockito": "^2.6.1",
+    "vitest": "^0.25.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
