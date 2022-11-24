@@ -7,10 +7,12 @@ An almost ideal solution to the Snacks Vending Machine assignment provided by Fr
 
 - To run the code, you first need to use 
 `npm install -D typescript`
+then
 `npm install -D ts-node`
 
 - After that you can run the directly by navigating to the "src" file and running the "Main.ts" file as in the following commands:
 `cd src/`
+then
 `ts-node Main.ts`
 
 ## Alternative ways:
