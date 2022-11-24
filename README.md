@@ -5,7 +5,7 @@ An almost ideal solution to the Snacks Vending Machine assignment provided by Fr
 - First of all, you need to install dependinces using the following command:
 `npm install`
 
-- To run the code, you first need to use 
+- In case you have any problems with "TS" dependences, you might need to do the following to run the code. Tou first need to use 
 `npm install -D typescript`
 then
 `npm install -D ts-node`
