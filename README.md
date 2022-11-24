@@ -1,7 +1,7 @@
 # VendingMachine
 An almost ideal solution to the Snacks Vending Machine assignment provided by Freightos company.
 
-#Setup the environemt:
+## Setup the environemt:
 - First of all, you need to install dependinces using the following command:
 `npm install`
 
@@ -13,6 +13,8 @@ An almost ideal solution to the Snacks Vending Machine assignment provided by Fr
 `cd src/`
 `ts-node Main.ts`
 
+## Alternative ways:
+
 * In case you are having any problems with the above commands, you might want to install "ts-node" globally on your machine using the following command:
 `sudo npm i typescript ts-node -g`
 
@@ -23,7 +25,7 @@ in the main directory which will create a new file called "JSFiles", in which yo
 then running the code using 
 `node Main.js`
 
-#To run the test cases:
+## To run the test cases:
 * You just need to run the following script which is:
 `npm test`
 and all of the tests will run directly in the terminal
