@@ -30,6 +30,10 @@ then running the code using
 `npm test`
 and all of the tests will run directly in the terminal
 
+## The UML diagram for the prject is the following:
+
+[Vending_UML.pdf](https://github.com/wasem-ibrahim/VendingMachine/files/10083183/Vending_UML.pdf)
+
 
 
 
