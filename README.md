@@ -34,6 +34,13 @@ and all of the tests will run directly in the terminal
 
 [Vending_UML.pdf](https://github.com/wasem-ibrahim/VendingMachine/files/10083183/Vending_UML.pdf)
 
+## Tests running correctly:
+![Screen Shot 2022-11-24 at 11 50 32 AM](https://user-images.githubusercontent.com/61679566/203752662-7427e470-ae88-4fb0-97e0-255c1a0f53b8.jpg)
+
+## Output of the Main file when given some static data
+![Screen Shot 2022-11-24 at 11 52 02 AM](https://user-images.githubusercontent.com/61679566/203752927-9293e6ec-adde-4f0c-8435-34c7420fb8ea.jpg)
+
+
 
 
 
