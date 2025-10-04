@@ -1,5 +1,5 @@
 # VendingMachine
-An almost ideal solution to the Snacks Vending Machine assignment provided by Freightos company.
+A recreation of a vending machine logic using TypeScript with OOP, best practices and design principles. 
 
 ## Setup the environemt:
 - First of all, you need to install dependinces using the following command:
